@@ -1,16 +1,14 @@
 # JHack
-### JHack: a C++ library to take control of your computer !
+### コンピュータを制御するためのC++ライブラリ
 
 
-Hello, I'm Jhache and this is my hacking library, **JHack**! I've made this (and will continue to improve it) 
-in order to practice with C++ & the WinAPI, and also to try game hacking for the first time.
+このライブラリは、C++とWinAPIの練習と、ゲームハッキングの初挑戦のために作りました。
 
-Behind the catchy introduction is a very simple C++17 Library that is a wrapper on the WinAPI.
-The goal of this library is to easily access to a process data & modify it.
-On top of that, I want to make useful features that will help programming a game hack !
+魅力的な紹介文の裏側には、WinAPIのラッパーである非常にシンプルなC++17ライブラリがあります。
+このライブラリの目的は、プロセスに簡単にアクセスし、変更することです。
+その上で、ゲームハックのプログラミングに役立つような便利な機能を作りたい !
 
-
-## Features
+## 特徴
 Here is a list of the current features:
 - a `start()` function that print "Hello World"! (**amazing**)
 - a `getProcessHandleByName()` function to retrieve a Process Handle.
