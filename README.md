@@ -9,12 +9,12 @@
 その上で、ゲームハックのプログラミングに役立つような便利な機能を作りたい !
 
 ## 特徴
-Here is a list of the current features:
-- a `start()` function that print "Hello World"! (**amazing**)
-- a `getProcessHandleByName()` function to retrieve a Process Handle.
+以下は、現在実装されている機能の一覧です。
+- start()は "Hello World" を表示します。
+- プロセスハンドルを取得するには、`getProcessHandleByName()` 関数を使用します。
 
 
-## Compilation
+## コンピレーション
 Just run the CMakeLists.txt file with the command `cmake`. You may want to build the project in a separate directory, for example `build/`. Both `build.sh` and `build.ps1` scripts can do that for you.
 
 In order to test the program, you first need to enable the tests in the cmake configuration (`cmake -DENABLE_TESTS=ON`, done by the build scripts). Then you just need to run `ctest` in your build directory.
